@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 related to nested routes and parameters.  The issue occurs when navigating directly to a nested route with a parameter without first visiting the parent route. The solution provides a fix using the `useParams` hook and an optional parameter in the nested route definition.
